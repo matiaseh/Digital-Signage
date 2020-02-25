@@ -1,0 +1,24 @@
+
+.kelikamerat {
+
+    width: 100%;
+    text-align: center;
+    //border-bottom: 5px solid black;
+    position: relative;
+    bottom: 0;
+}
+
+#eka, #toka {
+    height: 17vw;
+}
+
+
+#lampotilaDiv {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 24px);
+    font-family: sans-serif;
+    color: cornsilk;
+    font-size: 24px;
+    background-color: rgba(49, 49, 52, 0.37);
+}

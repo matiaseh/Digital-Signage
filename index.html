@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/foodCSS.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/kameratStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body onload="startTime()">
+
+
+<div class="containerDiv">
+
+    <div class="column1">
+
+        <div id="txt"></div>
+
+
+        <img class="metropolialogo" src="css/Metropolia_RGB_linearBlue.png">
+
+        <div class="kelikamerat">
+            <img id="eka" width="49.4%">
+            <img id="toka" width="49.4%">
+            <div id="lampotilaDiv"></div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="column2">
+
+
+        <div class="centeredDiv">
+            <div class="otsikkoDiv">
+                <div class="aikaOtsikko">Aika</div>
+                <div class="linjaOtsikko">Linja</div>
+                <div class="maaranpaaOtsikko">Määränpää</div>
+                <div class="pysakkiOtsikko">Pysäkki</div>
+                <div class="kavelyaikaOtsikko">Kävelyaika</div>
+            </div>
+            <div class="dataDiv">
+
+            </div>
+        </div>
+
+
+        <div class="ruokalista">
+            <img class="header" src="css/sdoexo.png">
+            <ul id="foodList"></ul>
+            <img id="ruokakuva" src="css/food.png">
+        </div>
+    </div>
+</div>
+
+</body>
+<script rel="script" src="190308HslApi/main.js"></script>
+<script rel="script" src="foodFetch.js"></script>
+<script rel="script" src="clock.js"></script>
+<script rel="script" src="kelikamerat.js"></script>
+</html>
